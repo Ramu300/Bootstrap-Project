@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Poppins?query=poppins">
+    <style>
+        *{
+            font-family: 'poppins';
+        }
+        form{
+            border: 10px;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+      
+    <div class="container">
+        <form action="Home.html">
+                <div class="row">
+                    <center><caption><h3 style="font-weight: bold;">Create your Account</h3></caption>
+                        <span style="font-weight: bold;">Please enter your details</span></center>
+                    
+                            <div class="col-sm-6">
+                              <center><label for="fname">First Name</label><br>
+                                <input type="text" placeholder="Enter your first name" class="fname" id="fname"></center>
+                            </div>
+                            <div class="col-sm-6">
+                                <center><label for="lname">Last Name</label> <br>
+                                <input type="text" placeholder="Enter your last name" class="lname" id="lname"></center>
+                            </div>
+                            <div class="col-sm-6">
+                                <center><label for="Email">Email</label><br>
+                                <input class="Email" type="text" placeholder="Enter your email"></center>
+                            </div>
+                            <div class="col-sm-6">
+                                <center><label for="Mobile">Mobile Number</label><br>
+                                <input type="number" name="Mobile" id="Mobile" placeholder="Enter your mobile number"></center>
+                            </div>
+                            <div class="col-sm-6">
+                                <center><label for="password">Password</label><br>
+                                <input type="password" name="password" id="password" placeholder="Enter your password"></center>
+                            </div>
+                            <div class="col-sm-6">
+                                <center><label for="confirm">Confirm Password</label><br>
+                                <input type="confirm" name="confirm" id="confirm" placeholder="Enter confirm your password"></center>
+                            </div>
+                            <center> <button class="btn btn-success" type="submit">Submit</button></center>
+                </div>
+        </form>         
+        <center><span>Already have an account? <a class="nav-link" href="Login.html" style="color: green;">Sign In</a></span></center>
+    </div>
+</body>
+</html>
